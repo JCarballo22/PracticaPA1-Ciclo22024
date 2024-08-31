@@ -1,0 +1,101 @@
+@charset "utf-8";
+/*Documentos de estilos para mi página Web*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:#26BCAc;
+}
+
+h1{
+    float:right;
+    margin-top: 70px;
+}
+
+header, div, footer {
+    background-color: brown;
+    width: 99%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav {
+    background: #179517;
+    overflow:hidden;
+    clear:both;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float:left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display:block;
+    color:white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background-color: cornflowerblue;
+}
+
+main {
+    width:78%;
+    float:left;
+    margin-bottom: 20px;
+    
+}
+
+section{
+    width: 100%;
+    margin-left: 1.5%;
+    padding: 20px;
+    float:left;
+    background-color: #7a737a;
+}
+
+main section article{
+    padding: 20px;
+    background-color: #0764da;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 15.5%;
+    float:left;
+    background: rgba(209, 58, 206, 0.885);
+    padding: 10px;
+    box-sizing: border-box;
+    height: 1024px;
+    margin-left: 0.5%;
+}
+
+footer{
+    background: #e29221;
+    color:white;
+    clear:both;
+    padding: 10px 0px;
+    margin: 20px auto;
+    /*margin-bottom: 20px;
+    padding-bottom: 20px;*/
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+h2, h3,h4, h5, h6{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
