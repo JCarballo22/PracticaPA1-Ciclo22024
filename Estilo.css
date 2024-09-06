@@ -1,0 +1,175 @@
+.Cuidad {
+    background-color: tomato;
+    color: White;
+    Border: 2px solid black;
+    margin:20px;
+    padding: 20px;
+    max-width: 600px;
+    
+}
+
+.Norte{
+    /*background-color: cadetblue;*/
+    text-align: center;
+    background-image: url(piolin.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom;
+   
+}
+
+#Encabezado{
+    background-color: lightblue;
+    color:red;
+    padding: 40px;
+    text-align:center;
+}
+
+#Encabezado5{
+    background-color: lightblue;
+    color:rgb(16, 37, 17);
+    padding: 40px;
+    text-align:center;
+    text-size-adjust: 30px;
+}
+
+p {
+    text-align:right;
+    color:blue;
+}
+
+#parrafo{
+    text-align:left;
+    color:chocolate;
+}
+
+.otro{
+    text-align:center;
+    color:darkgreen;
+}
+
+* {
+    text-align: justify;
+    color:fuchsia;
+}
+/*
+article {
+    background-color: green;
+    opacity: 0.1;
+}*/
+
+article {
+    background: rgba(0,128,0,0.1);
+}
+
+body{
+    background-image: url(piolin.jpg);
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
+    background-repeat: no-repeat;
+    /*background-position: bottom;*/
+    /*background-position: top;*/
+    /*background-position: left;*/
+    /*background-position: right;*/
+    /*background-position: center;*/
+    background-position: top right;
+   /* background-position: top left;*/
+    /*background-position: bottom right;
+    background-position: bottom left;*/
+
+    /*background-attachment: fixed;*/
+    background-attachment: scroll;
+
+}
+
+p.dotted{
+    border-style: dotted;
+    border-width: 10px;
+}
+
+p.dotted:hover{
+    background-color: cyan;
+    width: 500px;
+    height: 800px;
+}
+
+p.dashed{
+    border-style: dashed;
+    border-color: darkgreen;
+    
+}
+
+p.solid{
+    border-style: solid;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-right: 65px;
+    margin-left: 20px;
+}
+
+p.double{
+    border-style: double;
+    /*margin: 50px;*/
+    /*margin: 50px,25px;*/
+    margin: 40px,25px,65px,20px;
+}
+
+p.groove{
+    border-style: groove;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 80px;
+    
+}
+
+p.ridge{
+    border-style: ridge;
+    /*padding: 70px;*/
+    /*padding: 70px 100px;*/
+    padding: 50px 30px 80px 40px;
+
+}
+p.inset{
+    border-style: inset;
+}
+
+p.outset{
+    border-style: outset;
+    border-width: 10px;
+}
+
+p.none{
+    border-style: none;
+}
+
+p.hidden{
+    border-style: hidden;
+
+}
+
+p.mix{
+    border-style: dotted dashed solid double;
+}
+
+a:link{
+    color: #ff0000;
+}
+
+a:visited{
+    color:#FF00ff;
+}
+
+a:hover{
+    color:#00ff00;
+}
+
+a:active{
+    color:#0000ff;
+}
+
+
+
+
+
+
